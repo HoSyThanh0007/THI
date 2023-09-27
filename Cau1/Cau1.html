@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        tr td {
+            padding: 10px;
+        }
+        .container{
+           width: 100%;
+           margin-left: 300px;
+        }
+        select {
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+h1{
+    margin-left: 40px;
+}
+    </style>
+    <div class="container">
+
+   
+    <h1>ĐĂNG KÝ THÀNH VIÊN </h1>
+    <table border="1">
+        <tr>
+            <th>Họ và tên :</th>
+            <td>
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <th>ngày sinh :</th>
+            <td>
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <th>Giới Tính</th>
+            <td>
+                <input type="radio" name="gender" value="Nam">
+                <label >Nam</label>
+                <input type="radio" name="gender" value="Nữ">
+                <label>Nữ</label>
+                <input type="radio" name="gender" value="không xác định">
+                <label>không xác định</label>
+            </td>
+        </tr>
+           <tr>
+            <th>Quê Quán</th>
+            <td>
+                <textarea name="" id="" cols="40" rows="5"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <th>Sở Thích</th>
+            <td>
+                <input type="checkbox">
+                <label for="">Thể Thao</label>
+                <input type="checkbox">
+                <label for="">Âm nhạc </label>
+                <input type="checkbox">
+                <label for="">Xen Phim</label>
+            </td>
+        </tr>
+        <tr>
+            <th>Khung Giờ </th>
+            <td>
+                <select name="" id="">
+                    <option value="">Sáng</option>
+                    <option value="">Trưa</option>
+                    <option value="">Chiều</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th colspan="2" align="center">
+                <button>đăng kí</button>
+            </th>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
